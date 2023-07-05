@@ -11,3 +11,5 @@ class Pet:
     def set_name(self):
         self.__name = str(input("What name do you want to set for your pet?: "))
         print("The name is now set to", self.__name)
+    def get_animal_type(self):
+        print("The type of animal of your pet is:",self.__animal_type)
