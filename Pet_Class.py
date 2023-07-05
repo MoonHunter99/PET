@@ -8,4 +8,6 @@ class Pet:
         self.__age = age
     def get_name(self):
         print("The name of the pet is", self.__name)
-    
+    def set_name(self):
+        self.__name = str(input("What name do you want to set for your pet?: "))
+        print("The name is now set to", self.__name)
