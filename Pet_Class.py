@@ -16,3 +16,5 @@ class Pet:
     def set_animal_type(self):
         self.__animal_type = str(input("What typ of animal do you want to set for your pet?: "))
         print("The name is now set to", self.__animal_type)
+    def get_age(self):
+        print("The age of your pet is", self.__age)
